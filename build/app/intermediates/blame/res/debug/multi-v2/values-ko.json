@@ -1,0 +1,77 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\flutterdemo\\flutter_tmp\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ko\\values-ko.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-2\\files-2.1\\a528b13ac93e64cafa3d0480e2c93207\\core-1.1.0\\res\\values-ko\\values-ko.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "43",
+                        "startColumns": "4",
+                        "startOffsets": "3605",
+                        "endColumns": "100",
+                        "endOffsets": "3701"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-2\\files-2.1\\fe9c64c3b75563899dced2bfde5c2ac6\\jetified-FishBun-0.11.2\\res\\values-ko\\values-ko.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,92,131,167,213,284,344,407,466,522",
+                        "endColumns": "36,38,35,45,70,59,62,58,55,45",
+                        "endOffsets": "87,126,162,208,279,339,402,461,517,563"
+                    },
+                    "to": {
+                        "startLines": "29,30,32,33,37,38,39,40,41,44",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "2685,2722,2847,2883,3218,3289,3349,3412,3471,3706",
+                        "endColumns": "36,38,35,45,70,59,62,58,55,45",
+                        "endOffsets": "2717,2756,2878,2924,3284,3344,3407,3466,3522,3747"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-2\\files-2.1\\7def8d6c3751559765cf68c2d5a2dddd\\appcompat-1.1.0\\res\\values-ko\\values-ko.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,202,296,397,479,577,683,763,839,930,1022,1117,1211,1312,1405,1500,1594,1685,1776,1855,1953,2047,2142,2242,2339,2439,2591,2685",
+                        "endColumns": "96,93,100,81,97,105,79,75,90,91,94,93,100,92,94,93,90,90,78,97,93,94,99,96,99,151,93,77",
+                        "endOffsets": "197,291,392,474,572,678,758,834,925,1017,1112,1206,1307,1400,1495,1589,1680,1771,1850,1948,2042,2137,2237,2334,2434,2586,2680,2758"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,42",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,202,296,397,479,577,683,763,839,930,1022,1117,1211,1312,1405,1500,1594,1685,1776,1855,1953,2047,2142,2242,2339,2439,2591,3527",
+                        "endColumns": "96,93,100,81,97,105,79,75,90,91,94,93,100,92,94,93,90,90,78,97,93,94,99,96,99,151,93,77",
+                        "endOffsets": "197,291,392,474,572,678,758,834,925,1017,1112,1206,1307,1400,1495,1589,1680,1771,1850,1948,2042,2137,2237,2334,2434,2586,2680,3600"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-2\\files-2.1\\84bd3266e257a6ed6137b67f2b6129c6\\browser-1.2.0\\res\\values-ko\\values-ko.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,141,234,337",
+                        "endColumns": "85,92,102,92",
+                        "endOffsets": "136,229,332,425"
+                    },
+                    "to": {
+                        "startLines": "31,34,35,36",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "2761,2929,3022,3125",
+                        "endColumns": "85,92,102,92",
+                        "endOffsets": "2842,3017,3120,3213"
+                    }
+                }
+            ]
+        }
+    ]
+}

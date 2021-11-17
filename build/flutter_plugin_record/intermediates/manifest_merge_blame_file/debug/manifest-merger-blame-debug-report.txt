@@ -1,0 +1,18 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="record.wilson.flutter.com.flutter_plugin_record" >
+4
+5    <uses-sdk android:minSdkVersion="19" />
+5-->C:\Users\Lenovo\AppData\Local\Pub\Cache\hosted\pub.flutter-io.cn\flutter_plugin_record-0.3.5\android\src\main\AndroidManifest.xml
+6
+7    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+7-->C:\Users\Lenovo\AppData\Local\Pub\Cache\hosted\pub.flutter-io.cn\flutter_plugin_record-0.3.5\android\src\main\AndroidManifest.xml:3:5-71
+7-->C:\Users\Lenovo\AppData\Local\Pub\Cache\hosted\pub.flutter-io.cn\flutter_plugin_record-0.3.5\android\src\main\AndroidManifest.xml:3:22-68
+8    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+8-->C:\Users\Lenovo\AppData\Local\Pub\Cache\hosted\pub.flutter-io.cn\flutter_plugin_record-0.3.5\android\src\main\AndroidManifest.xml:4:5-81
+8-->C:\Users\Lenovo\AppData\Local\Pub\Cache\hosted\pub.flutter-io.cn\flutter_plugin_record-0.3.5\android\src\main\AndroidManifest.xml:4:22-78
+9    <uses-permission android:name="android.permission.WAKE_LOCK" />
+9-->C:\Users\Lenovo\AppData\Local\Pub\Cache\hosted\pub.flutter-io.cn\flutter_plugin_record-0.3.5\android\src\main\AndroidManifest.xml:5:5-68
+9-->C:\Users\Lenovo\AppData\Local\Pub\Cache\hosted\pub.flutter-io.cn\flutter_plugin_record-0.3.5\android\src\main\AndroidManifest.xml:5:22-65
+10
+11</manifest>

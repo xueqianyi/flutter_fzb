@@ -1,0 +1,222 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.xueqianyi.flutter_tmp"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="29" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->D:\flutterdemo\flutter_tmp\android\app\src\main\AndroidManifest.xml:4:5-67
+14-->D:\flutterdemo\flutter_tmp\android\app\src\main\AndroidManifest.xml:4:22-64
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->[:image_picker] D:\flutterdemo\flutter_tmp\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-80
+15-->[:image_picker] D:\flutterdemo\flutter_tmp\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-77
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->[:image_picker] D:\flutterdemo\flutter_tmp\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-81
+16-->[:image_picker] D:\flutterdemo\flutter_tmp\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-78
+17    <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION" />
+17-->[:photo_manager] D:\flutterdemo\flutter_tmp\build\photo_manager\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-80
+17-->[:photo_manager] D:\flutterdemo\flutter_tmp\build\photo_manager\intermediates\library_manifest\debug\AndroidManifest.xml:9:22-77
+18    <uses-permission android:name="android.permission.CAMERA" />
+18-->[:camera] D:\flutterdemo\flutter_tmp\build\camera\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-65
+18-->[:camera] D:\flutterdemo\flutter_tmp\build\camera\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-62
+19    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+19-->[:camera] D:\flutterdemo\flutter_tmp\build\camera\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-71
+19-->[:camera] D:\flutterdemo\flutter_tmp\build\camera\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-68
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->[:connectivity] D:\flutterdemo\flutter_tmp\build\connectivity\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-79
+20-->[:connectivity] D:\flutterdemo\flutter_tmp\build\connectivity\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-76
+21    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+21-->[:connectivity] D:\flutterdemo\flutter_tmp\build\connectivity\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-76
+21-->[:connectivity] D:\flutterdemo\flutter_tmp\build\connectivity\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-73
+22    <uses-permission android:name="android.permission.WAKE_LOCK" />
+22-->[:flutter_plugin_record] D:\flutterdemo\flutter_tmp\build\flutter_plugin_record\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-68
+22-->[:flutter_plugin_record] D:\flutterdemo\flutter_tmp\build\flutter_plugin_record\intermediates\library_manifest\debug\AndroidManifest.xml:9:22-65
+23
+24    <application
+24-->D:\flutterdemo\flutter_tmp\android\app\src\main\AndroidManifest.xml:5:5-45:19
+25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+25-->[androidx.core:core:1.1.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\a528b13ac93e64cafa3d0480e2c93207\core-1.1.0\AndroidManifest.xml:24:18-86
+26        android:debuggable="true"
+27        android:icon="@mipmap/ic_launcher"
+27-->D:\flutterdemo\flutter_tmp\android\app\src\main\AndroidManifest.xml:9:9-43
+28        android:label="flutter_tmp"
+28-->D:\flutterdemo\flutter_tmp\android\app\src\main\AndroidManifest.xml:7:8-35
+29        android:networkSecurityConfig="@xml/network_security_config"
+29-->D:\flutterdemo\flutter_tmp\android\app\src\main\AndroidManifest.xml:10:9-69
+30        android:usesCleartextTraffic="true" >
+30-->D:\flutterdemo\flutter_tmp\android\app\src\main\AndroidManifest.xml:8:9-44
+31        <activity
+31-->D:\flutterdemo\flutter_tmp\android\app\src\main\AndroidManifest.xml:11:9-39:20
+32            android:name="com.xueqianyi.flutter_tmp.MainActivity"
+32-->D:\flutterdemo\flutter_tmp\android\app\src\main\AndroidManifest.xml:12:13-41
+33            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+33-->D:\flutterdemo\flutter_tmp\android\app\src\main\AndroidManifest.xml:15:13-163
+34            android:hardwareAccelerated="true"
+34-->D:\flutterdemo\flutter_tmp\android\app\src\main\AndroidManifest.xml:16:13-47
+35            android:launchMode="singleTop"
+35-->D:\flutterdemo\flutter_tmp\android\app\src\main\AndroidManifest.xml:13:13-43
+36            android:theme="@style/LaunchTheme"
+36-->D:\flutterdemo\flutter_tmp\android\app\src\main\AndroidManifest.xml:14:13-47
+37            android:windowSoftInputMode="adjustResize" >
+37-->D:\flutterdemo\flutter_tmp\android\app\src\main\AndroidManifest.xml:17:13-55
+38
+39            <!--
+40                 Specifies an Android theme to apply to this Activity as soon as
+41                 the Android process has started. This theme is visible to the user
+42                 while the Flutter UI initializes. After that, this theme continues
+43                 to determine the Window background behind the Flutter UI.
+44            -->
+45            <meta-data
+45-->D:\flutterdemo\flutter_tmp\android\app\src\main\AndroidManifest.xml:22:13-25:17
+46                android:name="io.flutter.embedding.android.NormalTheme"
+46-->D:\flutterdemo\flutter_tmp\android\app\src\main\AndroidManifest.xml:23:15-70
+47                android:resource="@style/NormalTheme" />
+47-->D:\flutterdemo\flutter_tmp\android\app\src\main\AndroidManifest.xml:24:15-52
+48            <!--
+49                 Displays an Android View that continues showing the launch screen
+50                 Drawable until Flutter paints its first frame, then this splash
+51                 screen fades out. A splash screen is useful to avoid any visual
+52                 gap between the end of Android's launch screen and the painting of
+53                 Flutter's first frame.
+54            -->
+55            <meta-data
+55-->D:\flutterdemo\flutter_tmp\android\app\src\main\AndroidManifest.xml:31:13-34:17
+56                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+56-->D:\flutterdemo\flutter_tmp\android\app\src\main\AndroidManifest.xml:32:15-79
+57                android:resource="@drawable/launch_background" />
+57-->D:\flutterdemo\flutter_tmp\android\app\src\main\AndroidManifest.xml:33:15-61
+58
+59            <intent-filter>
+59-->D:\flutterdemo\flutter_tmp\android\app\src\main\AndroidManifest.xml:35:13-38:29
+60                <action android:name="android.intent.action.MAIN" />
+60-->D:\flutterdemo\flutter_tmp\android\app\src\main\AndroidManifest.xml:36:17-68
+60-->D:\flutterdemo\flutter_tmp\android\app\src\main\AndroidManifest.xml:36:25-66
+61
+62                <category android:name="android.intent.category.LAUNCHER" />
+62-->D:\flutterdemo\flutter_tmp\android\app\src\main\AndroidManifest.xml:37:17-76
+62-->D:\flutterdemo\flutter_tmp\android\app\src\main\AndroidManifest.xml:37:27-74
+63            </intent-filter>
+64        </activity>
+65        <!--
+66             Don't delete the meta-data below.
+67             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+68        -->
+69        <meta-data
+69-->D:\flutterdemo\flutter_tmp\android\app\src\main\AndroidManifest.xml:42:9-44:33
+70            android:name="flutterEmbedding"
+70-->D:\flutterdemo\flutter_tmp\android\app\src\main\AndroidManifest.xml:43:13-44
+71            android:value="2" />
+71-->D:\flutterdemo\flutter_tmp\android\app\src\main\AndroidManifest.xml:44:13-30
+72
+73        <provider
+73-->[:image_picker] D:\flutterdemo\flutter_tmp\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:11:9-19:20
+74            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+74-->[:image_picker] D:\flutterdemo\flutter_tmp\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-82
+75            android:authorities="com.xueqianyi.flutter_tmp.flutter.image_provider"
+75-->[:image_picker] D:\flutterdemo\flutter_tmp\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-74
+76            android:exported="false"
+76-->[:image_picker] D:\flutterdemo\flutter_tmp\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-37
+77            android:grantUriPermissions="true" >
+77-->[:image_picker] D:\flutterdemo\flutter_tmp\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-47
+78            <meta-data
+78-->[:image_picker] D:\flutterdemo\flutter_tmp\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-18:75
+79                android:name="android.support.FILE_PROVIDER_PATHS"
+79-->[:image_picker] D:\flutterdemo\flutter_tmp\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:17:17-67
+80                android:resource="@xml/flutter_image_picker_file_paths" />
+80-->[:image_picker] D:\flutterdemo\flutter_tmp\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-72
+81        </provider>
+82
+83        <activity
+83-->[:url_launcher] D:\flutterdemo\flutter_tmp\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-11:74
+84            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+84-->[:url_launcher] D:\flutterdemo\flutter_tmp\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-74
+85            android:exported="false"
+85-->[:url_launcher] D:\flutterdemo\flutter_tmp\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-37
+86            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+86-->[:url_launcher] D:\flutterdemo\flutter_tmp\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-71
+87        <activity
+87-->[:flutter_inappwebview] D:\flutterdemo\flutter_tmp\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-11:47
+88            android:name="com.pichillilorenzo.flutter_inappwebview.InAppBrowser.InAppBrowserActivity"
+88-->[:flutter_inappwebview] D:\flutterdemo\flutter_tmp\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-102
+89            android:configChanges="orientation|screenSize"
+89-->[:flutter_inappwebview] D:\flutterdemo\flutter_tmp\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-59
+90            android:theme="@style/AppTheme" />
+90-->[:flutter_inappwebview] D:\flutterdemo\flutter_tmp\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-44
+91        <activity
+91-->[:flutter_inappwebview] D:\flutterdemo\flutter_tmp\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-15:55
+92            android:name="com.pichillilorenzo.flutter_inappwebview.ChromeCustomTabs.ChromeCustomTabsActivity"
+92-->[:flutter_inappwebview] D:\flutterdemo\flutter_tmp\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-110
+93            android:configChanges="orientation|screenSize"
+93-->[:flutter_inappwebview] D:\flutterdemo\flutter_tmp\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-59
+94            android:theme="@style/ThemeTransparent" />
+94-->[:flutter_inappwebview] D:\flutterdemo\flutter_tmp\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-52
+95
+96        <receiver android:name="com.pichillilorenzo.flutter_inappwebview.ChromeCustomTabs.ActionBroadcastReceiver" />
+96-->[:flutter_inappwebview] D:\flutterdemo\flutter_tmp\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:17:9-118
+96-->[:flutter_inappwebview] D:\flutterdemo\flutter_tmp\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:17:19-115
+97
+98        <provider
+98-->[:image_picker_saver] D:\flutterdemo\flutter_tmp\build\image_picker_saver\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-20:20
+99            android:name="io.flutter.plugins.imagepickersaver.ImagePickerFileProvider"
+99-->[:image_picker_saver] D:\flutterdemo\flutter_tmp\build\image_picker_saver\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-87
+100            android:authorities="com.xueqianyi.flutter_tmp.flutter.image_provider"
+100-->[:image_picker_saver] D:\flutterdemo\flutter_tmp\build\image_picker_saver\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-74
+101            android:exported="false"
+101-->[:image_picker_saver] D:\flutterdemo\flutter_tmp\build\image_picker_saver\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-37
+102            android:grantUriPermissions="true" >
+102-->[:image_picker_saver] D:\flutterdemo\flutter_tmp\build\image_picker_saver\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-47
+103            <meta-data
+103-->[:image_picker] D:\flutterdemo\flutter_tmp\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-18:75
+104                android:name="android.support.FILE_PROVIDER_PATHS"
+104-->[:image_picker] D:\flutterdemo\flutter_tmp\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:17:17-67
+105                android:resource="@xml/flutter_image_picker_file_paths" />
+105-->[:image_picker] D:\flutterdemo\flutter_tmp\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-72
+106        </provider>
+107        <provider
+107-->[com.sangcomz:FishBun:0.11.2] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\fe9c64c3b75563899dced2bfde5c2ac6\jetified-FishBun-0.11.2\AndroidManifest.xml:12:9-20:20
+108            android:name="com.sangcomz.fishbun.FishBunFileProvider"
+108-->[com.sangcomz:FishBun:0.11.2] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\fe9c64c3b75563899dced2bfde5c2ac6\jetified-FishBun-0.11.2\AndroidManifest.xml:13:13-68
+109            android:authorities="com.xueqianyi.flutter_tmp.fishbunfileprovider"
+109-->[com.sangcomz:FishBun:0.11.2] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\fe9c64c3b75563899dced2bfde5c2ac6\jetified-FishBun-0.11.2\AndroidManifest.xml:14:13-71
+110            android:exported="false"
+110-->[com.sangcomz:FishBun:0.11.2] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\fe9c64c3b75563899dced2bfde5c2ac6\jetified-FishBun-0.11.2\AndroidManifest.xml:15:13-37
+111            android:grantUriPermissions="true" >
+111-->[com.sangcomz:FishBun:0.11.2] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\fe9c64c3b75563899dced2bfde5c2ac6\jetified-FishBun-0.11.2\AndroidManifest.xml:16:13-47
+112            <meta-data
+112-->[:image_picker] D:\flutterdemo\flutter_tmp\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-18:75
+113                android:name="android.support.FILE_PROVIDER_PATHS"
+113-->[:image_picker] D:\flutterdemo\flutter_tmp\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:17:17-67
+114                android:resource="@xml/provider_paths" />
+114-->[:image_picker] D:\flutterdemo\flutter_tmp\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-72
+115        </provider>
+116
+117        <activity
+117-->[com.sangcomz:FishBun:0.11.2] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\fe9c64c3b75563899dced2bfde5c2ac6\jetified-FishBun-0.11.2\AndroidManifest.xml:22:9-25:51
+118            android:name="com.sangcomz.fishbun.ui.album.AlbumActivity"
+118-->[com.sangcomz:FishBun:0.11.2] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\fe9c64c3b75563899dced2bfde5c2ac6\jetified-FishBun-0.11.2\AndroidManifest.xml:23:13-71
+119            android:label="@string/album"
+119-->[com.sangcomz:FishBun:0.11.2] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\fe9c64c3b75563899dced2bfde5c2ac6\jetified-FishBun-0.11.2\AndroidManifest.xml:24:13-42
+120            android:theme="@style/FishBunTheme" />
+120-->[com.sangcomz:FishBun:0.11.2] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\fe9c64c3b75563899dced2bfde5c2ac6\jetified-FishBun-0.11.2\AndroidManifest.xml:25:13-48
+121        <activity
+121-->[com.sangcomz:FishBun:0.11.2] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\fe9c64c3b75563899dced2bfde5c2ac6\jetified-FishBun-0.11.2\AndroidManifest.xml:26:9-28:51
+122            android:name="com.sangcomz.fishbun.ui.picker.PickerActivity"
+122-->[com.sangcomz:FishBun:0.11.2] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\fe9c64c3b75563899dced2bfde5c2ac6\jetified-FishBun-0.11.2\AndroidManifest.xml:27:13-73
+123            android:theme="@style/FishBunTheme" />
+123-->[com.sangcomz:FishBun:0.11.2] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\fe9c64c3b75563899dced2bfde5c2ac6\jetified-FishBun-0.11.2\AndroidManifest.xml:28:13-48
+124        <activity
+124-->[com.sangcomz:FishBun:0.11.2] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\fe9c64c3b75563899dced2bfde5c2ac6\jetified-FishBun-0.11.2\AndroidManifest.xml:29:9-31:54
+125            android:name="com.sangcomz.fishbun.ui.detail.DetailActivity"
+125-->[com.sangcomz:FishBun:0.11.2] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\fe9c64c3b75563899dced2bfde5c2ac6\jetified-FishBun-0.11.2\AndroidManifest.xml:30:13-73
+126            android:theme="@style/DetailViewTheme" />
+126-->[com.sangcomz:FishBun:0.11.2] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\fe9c64c3b75563899dced2bfde5c2ac6\jetified-FishBun-0.11.2\AndroidManifest.xml:31:13-51
+127    </application>
+128
+129</manifest>
